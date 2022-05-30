@@ -1,0 +1,167 @@
+ body{
+    font-size: 16px;
+    font-family: 'Satoshi-Variable';
+    font-style: normal;
+    font-weight: 400;
+    background-image: url(../assets/fondoHome.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#textHeader{
+    margin-top: 170px;
+    margin-right: 0px;
+    size: 100px;
+    
+}
+
+ h1{
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Satoshi-Bold';
+
+}
+
+ h3{
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: center;
+}
+
+#logo{
+    width: 80px;
+    padding: 20px;
+}
+
+.blue{
+color: #1F4F88;
+}
+
+.flecha{
+    width: 40px ;
+    margin-top: 100px;
+}
+
+/*HEADER*/
+
+.icon:before, .icon:after {
+    position:absolute;
+    display:block;
+    content:" ";            
+    box-sizing: border-box;
+    transition: all 0.2s ease-out;
+}
+.header #myLinks {
+    display: none;
+    color: black;
+    background: #dadfe2;
+    height: max-content;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Satoshi-Medium';
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+}
+.header a.icon{
+    background: white;
+    background-image: url(../assets/Hamburguesa.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+.header a:hover{
+    color: white;
+    background-color: rgb(194, 205, 216);
+}
+.header .active {
+    color: white;
+    background-color: #5d8abe;
+}
+
+
+/*CARDS*/
+
+.card {
+    background-color: white;
+    background-position: center top 20px;
+    height: max-content;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    border-radius: 20px;
+
+    -webkit-box-shadow: -5px 9px 20px 5px rgba(0,0,0,0.24);
+    -moz-box-shadow: -5px 9px 20px 5px rgba(0,0,0,0.24);
+    box-shadow: -5px 9px 20px 5px rgba(0,0,0,0.24);
+
+}
+
+.card-asterisk{
+    background-image: url(../assets/asterisk.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    margin-top: 200px;
+
+}
+
+.card-hand{
+    background-image: url(../assets/hand.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    
+}
+
+.card-stairs{
+    background-image: url(../assets/satirs.png);
+    background-repeat: no-repeat;
+    background-size: 55px;
+}
+
+.text-box{
+    background-color: transparent;
+    padding: 40px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 13px;
+}
+
+/* NOTICIAS */
+
+#header-noticias{
+    height: 100px;
+    margin-top: 300p;
+}
+
+.square{
+    width: 10px;
+    background-color: #1F4F88;
+    position: top left;
+
+}
+
+.titulo{
+    font-size: 20px;
+    font-family: 'Satoshi-Bold';
+}
+
+.fechas{
+    font-family: 'Satoshi-Medium';
+    font-size: 12px;
+    margin: 10px;
+}
+
+
+
+
