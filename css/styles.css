@@ -1,6 +1,6 @@
  body{
     font-size: 16px;
-    font-family: 'Satoshi-Variable';
+    font-family: 'Satoshi-Medium';
     font-style: normal;
     font-weight: 400;
     background-image: url(../assets/fondoHome.png);
@@ -32,8 +32,17 @@
 }
 
 #logo{
-    width: 80px;
+    width: 70px;
     padding: 20px;
+
+    position: absolute;
+    top: -5px;
+    left: 45%;
+}
+
+#fondo-buger{
+    background-color: white;
+    width: 100%;
 }
 
 .blue{
@@ -45,51 +54,142 @@ color: #1F4F88;
     margin-top: 100px;
 }
 
-/*HEADER*/
+/*HAMBURGUESA*/
 
-.icon:before, .icon:after {
-    position:absolute;
-    display:block;
-    content:" ";            
-    box-sizing: border-box;
-    transition: all 0.2s ease-out;
-}
-.header #myLinks {
-    display: none;
-    color: black;
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 0 0.4rem;
+  }
+  
+  .main-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 25vh;
+    width: 100%;
+    margin-top: -100%;
+    transition: all .3s linear;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 100;
+  }
+  
+  .main-nav.show{
+    margin-top: 0;
+  }
+
+  
+  
+  .nav-links{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+
     background: #dadfe2;
     height: max-content;
-}
-.header a{
-    color: black;
+    position: fixed;
+    top: 0px;
+  }
+
+  #link1{
+    background-color: #E84725;
+    height: 100px;
+    width: 37vw;
+
+    }
+    #link2{
+    background-color: #69C8F2;
+    height: 100px;
+    width: 37vw;
+    }
+    #link3{
+    background-color: #F9C81E;
+    width: 37vw;
+    height: 100px;
+    }
+  
+  .link-item{
+    margin-top: 2rem;
+    color: white;
     text-decoration: none;
-    font-family: 'Satoshi-Medium';
-    font-size: 25px;
-    display: block;
-    padding: 10px;
-}
-.header a.icon{
-    background: white;
-    background-image: url(../assets/Hamburguesa.png);
-    background-size: cover;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .link-item::after {
+    position: absolute;
+    content: "";
+    background-color: white;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    transition: 0.3s ease all;
+  }
+  
+  .link-item:hover::after {
+    width: 100%;
+  }
+  
+  .button-menu{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    z-index: 200;
+
     width: 40px;
     height: 40px;
-    display: block;
-    position: fixed;
-    left: 20px;
-    top: 20px;
-}
-.header a:hover{
-    color: white;
-    background-color: rgb(194, 205, 216);
-}
-.header .active {
-    color: white;
-    background-color: #5d8abe;
-}
-
+    border: none;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .button-menu span{
+    width: 37px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #444444;
+    border-radius: 3px;
+    transform-origin: 4px 0px;
+    transition: all .2s linear;
+  }
+  
+  .button-menu.close span {
+    opacity: 1;
+    transform: rotate(45deg) translate(0px, 0px);
+    background: #000000;
+  }
+  
+  .button-menu.close span:nth-child(2){
+    transform: rotate(-45deg) translate(-8px, 5px);
+  }
+  
+  .button-menu.close span:nth-child(3){
+    display: none;
+  }
 
 /*CARDS*/
+
+.card-container{
+    margin-top: 200px;
+}
 
 .card {
     background-color: white;
@@ -112,8 +212,6 @@ color: #1F4F88;
     background-image: url(../assets/asterisk.png);
     background-repeat: no-repeat;
     background-size: 70px;
-    margin-top: 200px;
-
 }
 
 .card-hand{
@@ -139,27 +237,138 @@ color: #1F4F88;
 
 /* NOTICIAS */
 
+.Noticias{
+    margin-top:100px;
+    margin-left: 30px;
+    padding-right: 70px;
+    
+}
+
 #header-noticias{
-    height: 100px;
-    margin-top: 300p;
+    height: 75px;
+    margin-top: 250px;
 }
 
 .square{
-    width: 10px;
+    width: 22.5px;
+    height: 22.5px;
     background-color: #1F4F88;
-    position: top left;
-
+    margin-bottom:0;
 }
 
 .titulo{
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Satoshi-Bold';
+    margin-left: 30px;
+    margin-top:-4px;
+}
+
+.news-titulares{
+    font-size: 16px;
+}
+
+.titular{
+    padding-top: 0;
+    
 }
 
 .fechas{
     font-family: 'Satoshi-Medium';
     font-size: 12px;
-    margin: 10px;
+    padding-bottom: 10px;
+}
+.linea{
+    color: black;
+    size: 0.05px;
+    width: 45%;
+}
+#lineaSpecial{
+    color: black;
+    size: 0.05px;
+    width: 93%;
+}
+.boton{
+    margin-top: 60px;
+    padding: 10px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 26px;
+    border-color: #E84725;
+    width: max-content;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.boton a, .verMas a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+
+    
+}
+
+.boton a.hover, .verMas a.hover{
+   color: rgb(194, 205, 216); 
+}
+
+.news-text{
+    font-size: 14px;
+    padding-bottom: 35px;
+}
+
+#botonVerMas{
+    position: relative;
+    margin-top: 40px;
+}
+
+.verMas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    width: 90px;
+    padding: 10px;
+    height: 30px;
+    border-radius: 26px;
+    box-shadow: -2px 3px 6px 5px rgba(0,0,0,0.18);
+}
+.verMas a{
+    font-size: 14px;
+}
+
+.ending{
+    margin-top: 100px;
+    margin-left: -42px;
+    padding: 0;
+    width: 100vw;
+    height: 300px;
+    background-color: #1F4F88;
+}
+#textEnding{
+    color: white;
+    font-size: 12px;
+    padding: 30px;
+    position: relative;
+    bottom: 10px;
+}
+
+.endingLinks{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 30px;
+    padding-bottom: 40px;
+}
+
+.endingLinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.endingLinks a.hover a.active{
+    color: rgb(194, 205, 216);
 }
 
 
