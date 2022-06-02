@@ -1,0 +1,75 @@
+#textHeaderServicios{
+    margin-top: 170px;
+    margin-right: 0px;
+    size: 140px;
+    
+}
+.card-clock{
+    background-image: url(../assets/Reloj.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+}
+
+.card-ubicacion{
+    background-image: url(../assets/Ubicacion.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    
+}
+
+.card-email{
+    background-image: url(../assets/Correo.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+}
+
+.card-phone{
+    background-image: url(../assets/phone.png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+}
+.squareServicio{
+    width: 22.5px;
+    height: 22.5px;
+    background-color: #F9C81E;
+    margin-left: 30px;
+    margin-bottom:0;
+}
+.titleService{
+    font-size: 30px;
+    margin: 14px;
+    font-family: 'Satoshi-Bold';
+    margin-left: 41px;
+    margin-top:-6px;
+    text-align: left;
+
+}
+.TextosServiciosContainer{
+    padding: 10%;
+    padding-top: 30%;
+    justify-content: left;
+    justify-items: left;
+}
+
+.titularServicios{
+    padding-top: 15%;
+    font-size: 18px;
+    font-family: 'Satoshi-Bold';
+    
+}
+.textoServicios{
+    font-size: 14px;
+    margin-top: 5%;
+    font-family: 'Satoshi-Medium';
+}
+#lineaServicios{
+    color: black;
+    size: 0.05px;
+    margin: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+    width: 70%;
+}
+.prestamoTitulo{
+    float: right;
+}
