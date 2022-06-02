@@ -17,8 +17,7 @@
         <div id="fondoServicios">
             <div class="header">    
                 <a  title="logo" href=#><img  id="logo" src="../assets/Logo.png"/></a>
-                <div class="imagenRight"><img src="../assets/Servicios/Fondo1.png" width="125px"></div>
-                <img class="imagenRightGrande" src="../assets/Servicios/fondo1Grande.png">
+                <img class="imagenRight" src="../assets/Servicios/Fondo1.png">
                  <div class="text-center">
                     <header class="main-header" >
                         <nav id="nav" class="main-nav" >
@@ -64,34 +63,36 @@
  <!-- Hamburguer Menu -->
                     <div id="textHeaderServicios">
                         <div id="header-servicio">
+                            <img class="imagenRightGrande" id="ServicioFondo1Grande" src="../assets/Servicios/fondo1Grande.png">
                             <div class="squareServicio"></div> 
                             <div><h1 class="titleService">Servicio de atención al Estudiante
                                 con Discapacidad</h1></div>
                             <img class="imagenLeft" id="ServicioFondo2" src="../assets/Servicios/fondo2.png">
                         </div>
+                        <img class="imagenLeftGrande" id="ServicioFondo2Grande" src="../assets/Servicios/fondo2Grande.png">
                     </div>
                 </div>
             </div>
            
 <!-- CARDS -->
-            <div class="card-container container-fluid">
+            <div class="card-container container-fluid" id="cards-services">
                 <h2>¿Cómo encontrarnos?</h2>
                     <div class="row">
-                        <div class="col-xs-12 col-md-12 col-lg-3">
+                        <div class="col-xs-12 col-md-12 col-lg-6 col-xl-3">
                           <div class="card card-clock">
                             <div class="text-box-servicios">
                                 <p> Lunes a Viernes <br> de 9 h a 14 h </p>
                             </div>
                           </div>
                         </div>
-                        <div class="col-xs-12 col-md-12 col-lg-3">
+                        <div class="col-xs-12 col-md-12 col-lg-6 col-xl-3">
                             <div class="card card-email">
                                <div class="text-box-servicios">
                                  <p> iandreu@upv.es</p>
                                </div>
                            </div>
                         </div>
-                        <div class="col-xs-12 col-md-12 col-lg-3">
+                        <div class="col-xs-12 col-md-12 col-lg-6 col-xl-3">
                           <div class="card card-ubicacion">
                               <div class="text-box-servicios">
                                 <p> Servicio de Atención al Estudiante con Discapacidad <br>
@@ -101,7 +102,7 @@
                               </div>
                           </div>
                         </div>
-                       <div class="col-xs-12 col-md-12 col-lg-3">
+                       <div class="col-xs-12 col-md-12 col-lg-6 col-xl-3">
                         <div class="card card-phone">
                            <div class="text-box-servicios">
                              <p> 963877036</p>
@@ -111,12 +112,14 @@
                     <hr id="lineaServicios">
                     </div>  
                     <img class="imagenLeft" id="ServicioFondo3" src="../assets/Servicios/fondo3.png">    
-                    <img class="imagenLeftGrande" src="../assets/Servicios/fondo3Grande.png">      
+                    <img class="imagenLeftGrande" id="ServicioFondo3Grande" src="../assets/Servicios/fondo3Grande.png">      
             </div>
 <!-- TEXTOS -->
             <div class="TextosServiciosContainer">
-                <div class="titularServicios">
-                    <h4>Información, Asesoramiento y Apoyo al Alumnado</h4>
+                <div class="textoDerecha">
+                    <div class="titularServicios">
+                        <h4>Información, Asesoramiento y Apoyo al Alumnado</h4>
+                    </div>
                     <div class="textoServicios">
                         <p>Se proporciona al estudiante información acerca de la normativa en vigor en la UPV 
                             para estudiantes con discapacidad:  exención de tasas, reserva de plaza, permanencia, 
@@ -126,21 +129,25 @@
                     </div>
                 </div>
                 <img class="imagenRight" id="Serviciofondo4" src="../assets/Servicios/fondo4.png">
-                <img class="imagenRightGrande" src="../assets/Servicios/fondo4Grande.png">
-                <div class="titularServicios">
-                    <h4>Préstamo de productos de apoyo para el estudio, el transporte y la comunicación</h4>
+                <img class="imagenRightGrande" id="Serviciofondo4Grande" src="../assets/Servicios/fondo4Grande.png">
+                <div class="textoIzquierda">
+                    <div class="titularServicios">
+                        <h4>Préstamo de productos de apoyo para el estudio, el transporte y la comunicación</h4>
+                    </div>
                     <div class="textoServicios">
                         <p>Se dispone de una serie de recursos (grabadoras, programas de reconocimiento de voz, 
                             emisoras de Frecuencia Modulada…) que pueden ser utilizados a lo largo de todo el curso 
                             académico a través de la siguiente convocatoria: <br> <br>
-
+    
                             <span class="blue">* Préstamo de Ayudas técnicas para el estudio el transporte y la comunicación.</span></p>
                     </div>
                 </div>
                 <img class="imagenLeft" src="../assets/Servicios/fondo5.png">
                 <img class="imagenLeftGrande" src="../assets/Servicios/fondo5Grande.png">
-                <div class="titularServicios">
-                    <h4>Asesoramiento apoyo a la docencia en materia de discapacidad</h4>
+                <div class="textoDerecha">
+                    <div class="titularServicios">
+                        <h4>Asesoramiento apoyo a la docencia en materia de discapacidad</h4>
+                    </div>
                     <div class="textoServicios">
                         <p>En referencia al Personal Docente e Investigador, proporcionamos asesoramiento e información sobre las
                                 necesidades educativas especiales de l@s alumn@s con diversidad funcional y de sus circunstancias singulares 
@@ -149,9 +156,11 @@
                     </div>
                 </div>
                 <img class="imagenRight" src="../assets/Servicios/fondo6.png">
-                <img class="imagenRightGrande" src="../assets/Servicios/fondo6Grande.png">
-                <div class="titularServicios">
-                    <h4>Sensibilización, formación y voluntariado</h4>
+                <img class="imagenRightGrande" id="ServicioFondo6Grande" src="../assets/Servicios/fondo6Grande.png">
+                <div class="textoIzquierda">
+                    <div class="titularServicios">
+                        <h4>Sensibilización, formación y voluntariado</h4>
+                    </div>
                     <div class="textoServicios">
                         <p>Formación a estudiantes sobre nociones básicas de discapacidad para poder llevar a cabo acciones de voluntariado,
                             donde los estudiantes voluntarios apoyan a los estudiantes con discapacidad en diversas acciones, las cuales contribuyen 
@@ -159,16 +168,18 @@
                             colaboración se hace entrega del certificado correspondiente. </p>
                     </div>
                 </div>
-                <img class="imagenLeft" src="../assets/Servicios/fondo7.png">
-                <img class="imagenLeftGrande" src="../assets/Servicios/fondo7Grande.png">
-                <div class="titularServicios">
-                    <h4>Promoción de Empleo</h4>
-                    <div class="textoServicios">
+                <img class="imagenLeft" id="ServicioFondo7" src="../assets/Servicios/fondo7.png">
+                <img class="imagenLeftGrande" id="ServicioFondo7Grande" src="../assets/Servicios/fondo7Grande.png">
+                <div class="textoDerecha">
+                    <div class="titularServicios">
+                        <h4>Promoción de Empleo</h4>
+                    </div>
+                    <div class="textoServicios" id="textoEspecial">
                         <p>La prestación de este servicio va dirigida fundamentalmente a l@s estudiantes con discapacidad
                                 que se encuentran en el último tramo de sus estudios, con el objeto de  incentivar  y facilitar 
                                 la realización de prácticas que favorezca  su posterior inclusión en un entorno laboral y a los 
                                 exalumn@s ya titulados que se encuentren en situación de búsqueda de empleo. <br> <br>
-
+    
                             Junto con el Servicio Integrado de Empleo de la UPV canalizamos las ofertas de trabajo recibidas
                                 y se contacta con a contactado con l@s candidat@s que cumplan con el perfil requerido. <br><br>
                                 
@@ -176,7 +187,6 @@
                             contactos con  empleadores para la firma de los diversos convenios de colaboración </p>
                     </div>
                 </div>
-                
             </div>
         </div>
     </body>

@@ -10,8 +10,9 @@
 .imagenRight{
     margin: 0;
     padding: 0;
-    padding-left: 15px;
-    min-width: 125px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    width: 120px;
     position: relative;
     right: 0;
     float: right;
@@ -19,8 +20,9 @@
 .imagenLeft{
     margin: 0;
     padding: 0;
-    padding-right: 15px;
-    min-width: 125px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 120px;
     position: relative;
     left: 0;
     float:left;
@@ -36,20 +38,38 @@
 }
 #ServicioFondo3{
     left:  -12px;
+    padding-bottom: 15px;
+    width: 170px;
 }
+#Serviciofondo4{
+    width: 170px;
+}
+#ServicioFondo7{
+    width: 170px;
+}
+
 
 
 /* HEADER */
 
 #textHeaderServicios{
-    margin-top: 170px;
+    margin-top: 9em;
     margin-right: 0px;
     size: 140px;
     
 }
+
+.titleService{
+    margin-top: -7px;
+    font-family: 'Satoshi-Bold';
+    margin-left: 41px;
+    margin-bottom: 16px;
+    text-align: left;
+
+}
 .squareServicio{
-    width: 22.5px;
-    height: 22.5px;
+    width: 1.4em;
+    height: 1.4em;
     background-color: #F9C81E;
     margin-left: 30px;
     margin-bottom:0;
@@ -84,15 +104,6 @@
 
 /* TEXTOS LARGOS */
 
-.titleService{
-    font-size: 30px;
-    margin: 14px;
-    font-family: 'Satoshi-Bold';
-    margin-left: 41px;
-    margin-top:-6px;
-    text-align: left;
-
-}
 .TextosServiciosContainer{
     padding-top: 25%;
     justify-content: left;
@@ -101,15 +112,19 @@
 
 .titularServicios{
     padding: 10%;
-    padding-top: 15%;
-    font-size: 18px;
+    padding-bottom: 0.8em;
+    padding-top: 1.5em;
+    font-size: 1.5em;
     font-family: 'Satoshi-Bold';
     
 }
 .textoServicios{
-    font-size: 14px;
-    margin-top: 5%;
+    padding: 10%;
+    padding-top: 0;
     font-family: 'Satoshi-Medium';
+}
+#textoEspecial{
+    padding-top: 16px;
 }
 #lineaServicios{
     color: black;
@@ -121,7 +136,57 @@
     width: 70%;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 641px){
+
+    /* IMGANES */
+
+    .imagenRight{
+        min-width: 200px;
+        padding-left: 30px;
+    }
+    .imagenLeft{
+        min-width: 200px;
+        padding-right: 30px;
+    }
+    #ServicioFondo2{
+        padding-top: 18px;
+    } 
+    #ServicioFondo3{
+        padding-bottom: 15px; 
+        width: 250px;
+    }
+    #Serviciofondo4{
+        width: 250px;
+    }
+    #ServicioFondo7{
+        width: 250px;
+    }
+
+    /* HEADER */
+
+    .squareServicio{
+    width: 1.6em;
+    height: 1.6em;
+
+    }
+
+    
+    #cards-services{
+        margin-top: 14em;
+    }
+
+    /* TEXTOS */
+    .titularServicios{
+        padding: 10%;
+        padding-bottom: 0.8em;
+        padding-top: 2.1em;
+        font-size: 1.5em;
+        font-family: 'Satoshi-Bold';
+        
+    }
+}
+
+@media (min-width: 1140px){
     .imagenRight{
         display: none;
     }
@@ -132,6 +197,9 @@
         display: block;
         margin: 0;
         padding: 0;
+        margin-left: 50px;
+        padding-top: 8em;
+        width: 26.25em;
         position: relative;
         right: 0;
         float: right;
@@ -141,10 +209,112 @@
         display: block;
         margin: 0;
         padding: 0;
+        padding-right: 50px;
+        padding-top: 4em;
+        width: 26.25em;
         position: relative;
-        left: -10px;
+        left: 0;
         float: left;
     
     } 
+    #ServicioFondo1Grande{
+        margin-top: -71px;
+        padding-left: 0px;
+    }
+    #ServicioFondo2Grande{
+        margin-left: 0;
+        padding-top: 25px;
+        width: 15.25em;
+    } 
+    #ServicioFondo3Grande{
+        margin-top: 60px;
+        margin-left: -12px;
+        padding-bottom: 4em; 
+    }
+    #ServicioFondo6Grande{
+        width: 21.25em;
+        padding-top: 11em;
+    }
+    #ServicioFondo7Grande{
+        margin-top: 9em;
+        width: 24.125em;
+        
+    }  
+
+
+     /* HEADER */
+     #header-servicio{
+        margin-left: 30px;
+    }
+    h1{
+        font-size: 3.4em;
+    }
+    .squareServicio{
+        width: 2.4em;
+        height: 2.4em;
+    
+    }  
+    .titleService{
+        margin-left: 56px;
+    }
+    #cards-services{
+        margin-top: 19em;
+    }
+
+    /* TEXTOS */
+
+    .TextosServiciosContainer{
+        padding-top: 0;
+    }
+    .titularServicios{
+        font-size: 2.3em;
+        line-height: 1.3em;
+        margin-top: 4em;
+        
+    }
+    .textoServicios{
+        font-size: 1.2em;
+    }
+    .textoDerecha{
+        padding-left: 50%;
+    }
+    .textoIzquierda{
+        padding-right: 50%;
+    }
 
 }
+@media (min-width: 1400px){
+    .imagenLeftGrande{
+        width: 32em;
+    } 
+    #ServicioFondo1Grande{
+        margin-top: -261px;
+    }
+    #ServicioFondo2Grande{
+        margin-left: 0;
+        padding-top: 25px;
+        width: 18.25em;
+    } 
+    #ServicioFondo3Grande{
+        margin-top: 60px;
+        margin-left: -12px;
+        padding-bottom: 4em; 
+    }
+    #ServicioFondo6Grande{
+        width: 26.25em;
+        padding-top: 9em;
+    }
+    #ServicioFondo7Grande{
+        margin-top: 4em;
+        width: 29.125em;
+        
+    }  
+
+    #cards-services{
+        margin-top: 22em;
+    }
+
+    h2{
+        font-size: 1.8em;
+    }
+} 
