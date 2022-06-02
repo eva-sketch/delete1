@@ -130,17 +130,16 @@ color: #1F4F88;
   #link1{
     background-color: #E84725;
     height: 100px;
-    width: 33vw;
-
+    width: 37vw;
     }
     #link2{
     background-color: #69C8F2;
     height: 100px;
-    width: 33vw;
+    width: 37vw;
     }
     #link3{
     background-color: #F9C81E;
-    width: 33vw;
+    width: 37vw;
     height: 100px;
     }
   
@@ -180,6 +179,7 @@ color: #1F4F88;
     background: none;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
   }
   
@@ -296,6 +296,7 @@ color: #1F4F88;
 .Noticias{
     margin-top:100px;
     padding-left: 30px;
+    margin-left: 30px;
     padding-right: 70px;
     
 }
@@ -357,6 +358,14 @@ color: #1F4F88;
     font-size: 14px;
     margin-top: 5%;
     font-family: 'Satoshi-Medium';
+}
+
+.news-titulares{
+    font-size: 16px;
+}
+
+.titular{
+    padding-top: 0;
 }
 
 .fechas{
@@ -436,6 +445,8 @@ color: #1F4F88;
 
 .ending{
     margin-top: 100px;
+    margin-left: -42px;
+    padding: 0;
     width: 100vw;
     height: 300px;
     background-color: #1F4F88;
@@ -454,6 +465,15 @@ color: #1F4F88;
     color: white;
     padding: 30px;
     padding-bottom: 40px;
+}
+
+.endingLinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.endingLinks a.hover a.active{
+    color: rgb(194, 205, 216);
 }
 
 .endingLinks a{
