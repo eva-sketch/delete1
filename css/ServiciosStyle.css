@@ -1,3 +1,10 @@
+#fondoServicios{
+    background-image: url(../assets/FondoServicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    
+}
 #textHeaderServicios{
     margin-top: 170px;
     margin-right: 0px;
