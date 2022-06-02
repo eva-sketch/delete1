@@ -1,16 +1,62 @@
-#fondoServicios{
+/* #fondoServicios{
     background-image: url(../assets/FondoServicio.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
     
+} */
+
+/* IMAGENES FONDO */
+
+.imagenRight{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    min-width: 125px;
+    position: relative;
+    right: 0;
+    float: right;
 }
+.imagenLeft{
+    margin: 0;
+    padding: 0;
+    padding-right: 15px;
+    min-width: 125px;
+    position: relative;
+    left: 0;
+    float:left;
+}
+.imagenRightGrande{
+    display: none;
+}
+.imagenLeftGrande{
+    display: none;
+}
+#ServicioFondo2{
+    padding-top: 18px;
+}
+#ServicioFondo3{
+    left:  -12px;
+}
+
+
+/* HEADER */
+
 #textHeaderServicios{
     margin-top: 170px;
     margin-right: 0px;
     size: 140px;
     
 }
+.squareServicio{
+    width: 22.5px;
+    height: 22.5px;
+    background-color: #F9C81E;
+    margin-left: 30px;
+    margin-bottom:0;
+}
+
+/* CARDS */
+
 .card-clock{
     background-image: url(../assets/Reloj.png);
     background-repeat: no-repeat;
@@ -35,13 +81,9 @@
     background-repeat: no-repeat;
     background-size: 90px;
 }
-.squareServicio{
-    width: 22.5px;
-    height: 22.5px;
-    background-color: #F9C81E;
-    margin-left: 30px;
-    margin-bottom:0;
-}
+
+/* TEXTOS LARGOS */
+
 .titleService{
     font-size: 30px;
     margin: 14px;
@@ -52,13 +94,13 @@
 
 }
 .TextosServiciosContainer{
-    padding: 10%;
-    padding-top: 30%;
+    padding-top: 25%;
     justify-content: left;
     justify-items: left;
 }
 
 .titularServicios{
+    padding: 10%;
     padding-top: 15%;
     font-size: 18px;
     font-family: 'Satoshi-Bold';
@@ -73,10 +115,36 @@
     color: black;
     size: 0.05px;
     margin: 15%;
+    margin-bottom: 20px;
     margin-right: 15%;
     margin-top: 4%;
     width: 70%;
 }
-.prestamoTitulo{
-    float: right;
+
+@media (min-width: 1024px){
+    .imagenRight{
+        display: none;
+    }
+    .imagenLeft{
+        display: none;
+    }
+    .imagenRightGrande{
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        right: 0;
+        float: right;
+    
+    } 
+    .imagenLeftGrande{
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: -10px;
+        float: left;
+    
+    } 
+
 }
