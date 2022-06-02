@@ -20,14 +20,7 @@
 #textHeader{
     margin-top: 170px;
     margin-right: 0px;
-    size: 100px;
-    
-}
-#textHeaderServicios{
-    margin-top: 170px;
-    margin-right: 0px;
-    size: 140px;
-    
+    size: 100px;   
 }
 
 h1{
@@ -250,31 +243,6 @@ color: #1F4F88;
     background-size: 55px;
 }
 
-.card-clock{
-    background-image: url(../assets/Reloj.png);
-    background-repeat: no-repeat;
-    background-size: 90px;
-}
-
-.card-ubicacion{
-    background-image: url(../assets/Ubicacion.png);
-    background-repeat: no-repeat;
-    background-size: 70px;
-    
-}
-
-.card-email{
-    background-image: url(../assets/Correo.png);
-    background-repeat: no-repeat;
-    background-size: 90px;
-}
-
-.card-phone{
-    background-image: url(../assets/phone.png);
-    background-repeat: no-repeat;
-    background-size: 90px;
-}
-
 .text-box{
     background-color: transparent;
     padding: 40px;
@@ -312,53 +280,15 @@ color: #1F4F88;
     margin-bottom:0;
 }
 
-.squareServicio{
-    width: 22.5px;
-    height: 22.5px;
-    background-color: #F9C81E;
-    margin-left: 30px;
-    margin-bottom:0;
-}
-
 .titulo{
     font-size: 30px;
     font-family: 'Satoshi-Bold';
     margin-left: 30px;
     margin-top:-4px;
 }
-.titleService{
-    font-size: 30px;
-    margin: 14px;
-    font-family: 'Satoshi-Bold';
-    margin-left: 41px;
-    margin-top:-6px;
-    text-align: left;
-
-}
-
 .news-titulares{
     font-size: 16px;
 }
-
-.TextosServiciosContainer{
-    padding: 10%;
-    padding-top: 30%;
-    justify-content: left;
-    justify-items: left;
-}
-
-.titularServicios{
-    padding-top: 15%;
-    font-size: 18px;
-    font-family: 'Satoshi-Bold';
-    
-}
-.textoServicios{
-    font-size: 14px;
-    margin-top: 5%;
-    font-family: 'Satoshi-Medium';
-}
-
 .fechas{
     font-family: 'Satoshi-Medium';
     font-size: 12px;
@@ -368,14 +298,6 @@ color: #1F4F88;
     color: black;
     size: 0.05px;
     width: 45%;
-}
-#lineaServicios{
-    color: black;
-    size: 0.05px;
-    margin: 15%;
-    margin-right: 15%;
-    margin-top: 4%;
-    width: 70%;
 }
 #lineaSpecial{
     color: black;
