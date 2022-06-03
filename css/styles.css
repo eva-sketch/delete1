@@ -12,13 +12,6 @@
     background-repeat: no-repeat;
     background-size: cover
 }
-
-#textHeader{
-    margin-top: 170px;
-    margin-right: 0px;
-    size: 100px;   
-}
-
 h1{
     font-size: 2em;
     line-height: 1em;
@@ -33,7 +26,7 @@ h2{
     font-style: bold;
 }
 
- h3{
+h3{
     font-size: 1.4em;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -51,40 +44,53 @@ h2{
     left: 45%;
 }
 
-#fondo-buger{
-    background-color: white;
-    padding: 0px;
-    width: 100%;
-    height: 60px;
-    text-align: center;
+/* IMAGENES FONDO */
+
+.imagenRight{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    width: 120px;
+    position: relative;
+    right: 0;
+    float: right;
+}
+.imagenLeft{
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 120px;
+    position: relative;
+    left: 0;
+    float:left;
+}
+.imagenRightGrande{
+    display: none;
+}
+.imagenLeftGrande{
+    display: none;
 }
 
-.blue{
-color: #1F4F88;
-}
-
-.flecha{
-    width: 40px ;
-    margin-top: 100px;
-}
 
 /*HAMBURGUESA*/
 
 *{
     margin: 0;
     padding: 0;
-  }
-  
-  .main-header{
+}
+
+.main-header{
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: transparent;
     padding: 0 0.4rem;
-  }
-  
-  .main-nav{
+}
+
+.main-nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -94,15 +100,13 @@ color: #1F4F88;
     transition: all .3s linear;
     background-color: rgba(255, 255, 255, 0.7);
     z-index: 100;
-  }
-  
-  .main-nav.show{
-    margin-top: 0;
-  }
+}
 
-  
-  
-  .nav-links{
+.main-nav.show{
+    margin-top: 0;
+}
+
+.nav-links{
     display: flex;
     flex-direction: row;
     width: 70%;
@@ -115,34 +119,42 @@ color: #1F4F88;
     height: max-content;
     position: fixed;
     top: 0px;
-  }
+}
 
-  #link1{
+#fondo-buger{
+    background-color: white;
+    padding: 0px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+#link1{
     background-color: #E84725;
     height: 100px;
     width: 33vw;
 
-    }
-    #link2{
+}
+#link2{
     background-color: #69C8F2;
     height: 100px;
     width: 33vw;
-    }
-    #link3{
+}
+#link3{
     background-color: #F9C81E;
     width: 33vw;
     height: 100px;
-    }
-  
-  .link-item{
+}
+
+.link-item{
     margin-top: 2rem;
     color: white;
     text-decoration: none;
     font-weight: bold;
     position: relative;
-  }
-  
-  .link-item::after {
+}
+
+.link-item::after {
     position: absolute;
     content: "";
     background-color: white;
@@ -151,13 +163,13 @@ color: #1F4F88;
     width: 0%;
     height: 3px;
     transition: 0.3s ease all;
-  }
-  
-  .link-item:hover::after {
+}
+
+.link-item:hover::after {
     width: 100%;
-  }
-  
-  .button-menu{
+}
+
+.button-menu{
     position: absolute;
     left: 15px;
     top: 10px;
@@ -171,9 +183,9 @@ color: #1F4F88;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-  }
-  
-  .button-menu span{
+}
+
+.button-menu span{
     width: 37px;
     height: 4px;
     margin-bottom: 5px;
@@ -182,36 +194,55 @@ color: #1F4F88;
     border-radius: 3px;
     transform-origin: 4px 0px;
     transition: all .2s linear;
-  }
-  
-  .button-menu.close span {
+}
+
+.button-menu.close span {
     opacity: 1;
     transform: rotate(45deg) translate(0px, 0px);
     background: #000000;
-  }
-  
-  .button-menu.close span:nth-child(2){
+}
+
+.button-menu.close span:nth-child(2){
     transform: rotate(-45deg) translate(-8px, 5px);
-  }
-  
-  .button-menu.close span:nth-child(3){
+}
+
+.button-menu.close span:nth-child(3){
     display: none;
-  }
+}
+
+/* HEADER */
+
+#textHeader{
+    margin-top: 170px;
+    margin-right: 0px;
+    size: 100px;   
+}
+.blue{
+    color: #1F4F88;
+    }
+    
+.flecha{
+    width: 40px ;
+    margin-top: 100px;
+}
 
 /*CARDS*/
 
 .card-container{
     margin-top: 9em;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .card {
     background-color: white;
     background-position: center top 20px;
-    height: min-content;
-    margin-left: 60px;
-    margin-right: 60px;
+
+    height: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 4em;
 
     border-radius: 20px;
 
@@ -244,16 +275,8 @@ color: #1F4F88;
     background-color: transparent;
     padding: 40px;
     text-align: center;
-    padding-top: 100px;
-    font-size: 13px;
-}
-
-.text-box-servicios{
-    background-color: transparent;
-    padding: 40px;
-    text-align: center;
-    padding-top: 150px;
-    font-size: 16px;
+    padding-top: 100px; 
+    font-size: 1.2em;
 }
 
 /* NOTICIAS */
@@ -280,7 +303,7 @@ color: #1F4F88;
 .titulo{
     font-size: 30px;
     font-family: 'Satoshi-Bold';
-    margin-left: 30px;
+    padding-left: 30px;
     margin-top:-4px;
 }
 .news-titulares{
@@ -355,10 +378,10 @@ color: #1F4F88;
 
 .ending{
     margin-top: 100px;
-    width: 100vw;
+    width: 100%;
     height: 300px;
     background-color: #1F4F88;
-}
+} 
 #textEnding{
     color: white;
     font-size: 12px;
@@ -384,9 +407,54 @@ color: #1F4F88;
     color: rgb(194, 205, 216);
 }
 
-@media (min-width: 1024px){
-    
+@media (min-width: 641px){
+
+    /* IMGANES */
+
+    .imagenRight{
+        min-width: 200px;
+        padding-left: 30px;
+    }
+    .imagenLeft{
+        min-width: 200px;
+        padding-right: 30px;
+    }
+
+    /* CARDS */
 }
 
+@media (min-width: 1140px){
+    .imagenRight{
+        display: none;
+    }
+    .imagenLeft{
+        display: none;
+    }
+    .imagenRightGrande{
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-left: 50px;
+        padding-top: 8em;
+        width: 26.25em;
+        position: relative;
+        right: 0;
+        float: right;
+    
+    } 
+    .imagenLeftGrande{
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding-right: 50px;
+        padding-top: 4em;
+        width: 26.25em;
+        position: relative;
+        left: 0;
+        float: left;
+    
+    } 
+    /* CARDS */
+}
 
 
