@@ -1,0 +1,238 @@
+/* HEADER */
+
+#textHeaderAccessibility{
+    margin-top: 8em;
+    margin-right: 0px;
+    size: 140px;
+    
+}
+
+.titleAccessibility{
+    margin-top: -7px;
+    font-family: 'Satoshi-Black';
+    margin-left: 41px;
+    margin-bottom: 1.5em;
+    text-align: left;
+
+}
+.squareAccessibility{
+    width: 1.4em;
+    height: 1.4em;
+    background-color: #69c8f2;
+    margin-left: 30px;
+    margin-bottom:0;
+}
+
+/* CARDS */
+#cards-Accessibility{
+    padding-top: 1.5em;
+} 
+
+#card-mouse{
+    background-image: url(../assets/Mouse.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+#card-emailLight{
+    background-image: url(../assets/emailLight.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+/* TEXTOS */
+
+.titularAccesibilidad{
+    padding: 10%;
+    padding-bottom: 0.8em;
+    padding-top: 1.5em;
+    font-size: 1.5em;
+    font-family: 'Satoshi-Bold';
+    
+}
+
+#tittleAccessibilityProyectos{
+    padding-top: 2em;
+    padding-left: 4.5em;
+}
+
+
+/* IMAGENES */
+#AccesibilidadFondoA{
+    margin-bottom: 0;
+    margin-top: 1em;
+    width: 9.7em;
+}
+#AccesibilidadFondoC{
+    width: 8.5em;
+    margin-left: -12px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-right: 7em;
+}
+#AccesibilidadfondoD{
+    width: 8.5em;
+}
+#AccesibilidadFondoE{
+    width: 8.5em;
+}
+
+@media (min-width: 641px){
+
+    /* IMGANES */
+
+    #AccesibilidadFondoA{
+        padding-top: 0;
+        width: 17em;
+    } 
+    #AccesibilidadFondoC{
+        padding-bottom: 15px; 
+        width: 350px;
+        margin-right: 1em;
+        margin-top: 3.5em;
+    }
+    #AccesibilidadfondoD{
+        width: 350px;
+    }
+    #AccesibilidadFondoE{
+        width: 350px;
+    }
+    #AccesibilidadFondoF{
+        width: 280px;
+    }
+
+    /* HEADER */
+
+    .squareAccessibility{
+        width: 1.6em;
+        height: 1.6em;
+    }
+    #cards-Accessibility{
+        padding-top: 4em;
+    }
+    #header-accessibility{
+        padding-left: 2em;
+    }
+
+    /* TEXTOS */
+    #tittleAccessibilityProyectos{
+        padding-top: 3em;
+        padding-left: 4.5em;
+    }
+    #tittleAccessibilityAsesoramiento{
+        padding-top: 2em;
+    }
+    
+}
+@media (min-width: 1140px){
+
+    #AccesibilidadFondoAGrande{
+        padding-top: 0;
+        width: 17em;
+    }
+    #AccesibilidadFondoBGrande{
+        margin-top: -7em;
+        width: 20em;
+    } 
+    #AccesibilidadFondoCGrande{
+        width: 20em;
+        margin-left: -12px;
+    }
+    #AccesibilidadfondoDGrande{
+        width: 22em;
+    }
+
+    #AccesibilidadFondoEGrande{
+        width: 26em;
+        margin-top: 3em
+    }
+
+    #AccesibilidadFondoFGrande{
+        width: 18em;
+        margin-top: 0;
+        
+    }  
+
+
+     /* HEADER */
+    #header-servicio{
+        margin-left: 30px;
+    }
+    .squareAccessibility{
+        width: 2.4em;
+        height: 2.4em;
+    
+    }  
+    .titleAccessibility{
+        margin-left: 56px;
+    }
+    #cards-Accessibility{
+        margin-top: 12em;
+    } 
+
+    /* TEXTOS */
+    .titularAccesibilidad{
+        padding-top: 3em;
+        font-size: 2.3em;
+        line-height: 1em;
+        
+    }
+    #tittleAccessibilityEdificios{
+        margin-top: -3em;
+    }
+    #tittleAccessibilityProyectos{
+        margin-top: -8em;
+        padding-left: 0em;
+    }
+    #tittleAccessibilityAsesoramiento{
+        margin-top: -4em;
+    }
+}
+@media (min-width: 1400px){
+
+    #AccesibilidadFondoAGrande{
+        margin-top: -2em;
+        width: 24em;
+    }
+    #AccesibilidadFondoBGrande{
+        margin-top: -3em;
+        width: 27em;
+    } 
+    #AccesibilidadFondoCGrande{
+        width: 25em;
+    }
+    #AccesibilidadfondoDGrande{
+        width: 26em;
+        padding-top: 9em;
+    }
+    #AccesibilidadFondoEGrande{
+        margin-top: 4em;
+        width: 31em;
+   
+    } 
+    #AccesibilidadFondoFGrande{
+        margin-top: -4em;
+        width: 24em;
+   
+    }  
+
+    #cards-Accessibility{
+        padding-top: 20em;
+    } 
+
+    h2{
+        font-size: 1.8em;
+    }
+
+    /* TEXTOS */
+    #tittleAccessibilityEdificios{
+        margin-top: 0em;
+    }
+    #tittleAccessibilityProyectos{
+        margin-top: -4em;
+        padding-left: 0em;
+    }
+    #tittleAccessibilityAsesoramiento{
+        margin-top: -3em;
+    }
+} 

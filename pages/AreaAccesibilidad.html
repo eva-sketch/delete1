@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="stylesheet" href="../css/ServiciosStyle.css">
+        <link rel="stylesheet" href="../css/AccesibilidadStyle.css">
         <link rel="stylesheet" href="../css/satoshi.css">
 
         <script src="../js/main.js" async=""></script>
@@ -17,14 +18,14 @@
         <div id="fondoServicios">
             <div class="header">    
                 <a  title="logo" href=#><img  id="logo" src="../assets/Logo.png"/></a>
-                <img class="imagenRight" src="../assets/Servicios/Fondo1.png">
+                <img class="imagenRight" id="AccesibilidadFondoA" src="../assets/Accesibilidad/fondoA.png">
                  <div class="text-center">
                     <header class="main-header" >
                         <nav id="nav" class="main-nav" >
                             <div id="nav-links">
                                 <div class="row">
                                     <div class="row">                            
-                                        <div id="fondo-buger" >
+                                        <div id="fondo-buger">
                                         <a  title="logo" href=#><img  id="logo" src="../assets/Logo.png"/></a>
                                         </div>
                                     </div>
@@ -61,31 +62,33 @@
                     </header>
                       
  <!-- Hamburguer Menu -->
-                    <div id="textHeaderServicios">
-                        <div id="header-servicio">
-                            <img class="imagenRightGrande" id="ServicioFondo1Grande" src="../assets/Servicios/fondo1Grande.png">
-                            <div class="squareServicio"></div> 
-                            <div><h1 class="titleService">Área de Accesibilidad</h1></div>
-                            <img class="imagenLeft" id="ServicioFondo2" src="../assets/Servicios/fondo2.png">
+                    <div id="textHeaderAccessibility">
+                        <div>
+                            <img class="imagenRightGrande" id="AccesibilidadFondoAGrande" src="../assets/Accesibilidad/fondoAGrande.png">
+                            <div id="header-accessibility">
+                                <div class="squareAccessibility"></div> 
+                                <div><h1 class="titleAccessibility">Área de Accesibilidad</h1></div>
+                            </div>
+                            <img class="imagenLeft" id="AccesibilidadFondoB" src="../assets/Accesibilidad/fondoB.png">
                         </div>
-                        <img class="imagenLeftGrande" id="ServicioFondo2Grande" src="../assets/Servicios/fondo2Grande.png">
+                        <img class="imagenLeftGrande" id="AccesibilidadFondoBGrande" src="../assets/Accesibilidad/fondoBGrande.png">
                     </div>
                 </div>
             </div>
            
 <!-- CARDS -->
-            <div class="card-container container-fluid" id="cards-services">
+            <div class="card-container container-fluid" id="cards-Accessibility">
                 <h2>¿Cómo encontrarnos?</h2>
                     <div class="row">
-                        <div class="col-xs-12 col-md-12 col-lg-6 col-xl-3">
-                          <div class="card card-clock">
+                        <div class="col-xs-12 col-md-12 col-lg-6">
+                          <div class="card" id="card-mouse">
                             <div class="text-box-servicios">
                                 <p> HECATE <br> Web para el diagnóstico y gestión de la Accesibilidad Integral.  </p>
                             </div>
                           </div>
                         </div>
                         <div class="col-xs-12 col-md-12 col-lg-6">
-                            <div class="card card-email">
+                            <div class="card" id="card-emailLight">
                                <div class="text-box-servicios">
                                  <p> aquintan@upv.es</p>
                                </div>
@@ -93,40 +96,40 @@
                         </div>
                     <hr id="lineaServicios">
                     </div>  
-                    <img class="imagenLeft" id="ServicioFondo3" src="../assets/Servicios/fondo3.png">    
-                    <img class="imagenLeftGrande" id="ServicioFondo3Grande" src="../assets/Servicios/fondo3Grande.png">      
+                    <img class="imagenLeft" id="AccesibilidadFondoC" src="../assets/Accesibilidad/fondoC.png">    
+                    <img class="imagenLeftGrande" id="AccesibilidadFondoCGrande" src="../assets/Accesibilidad/fondoCGrande.png">      
             </div>
 <!-- TEXTOS -->
             <div class="TextosServiciosContainer">
                 <div class="textoDerecha">
-                    <div class="titularServicios">
+                    <div class="titularAccesibilidad">
                         <h4>Plan Municipal Integral de Accesibilidad</h4>
                     </div>
                     <div class="textoServicios">
-                        <p>Es el conjunto de actuaciones que tienen como objetivo la elaboración de un diagnóstico integral en materia de accesibili-
-                            dad, propuestas de solución a las carencias detectadas, y previsiones de actuación sobre las mismas a nivel presupuestario 
+                        <p>Es el conjunto de actuaciones que tienen como objetivo la elaboración de un diagnóstico integral en materia de 
+                            accesibilidad, propuestas de solución a las carencias detectadas, y previsiones de actuación sobre las mismas a nivel presupuestario 
                             y cronológico. <br><br>
                             
                             Nuestro primer plan Municipal lo realizamos en  el año 1996 y  contamos en nuestro curriculum con más de 50,  ciudades y municipios 
                              fundamentalmente de la Comunidad Valenciana. </p>
                     </div>
                 </div>
-                <img class="imagenRight" id="Serviciofondo4" src="../assets/Servicios/fondo4.png">
-                <img class="imagenRightGrande" id="Serviciofondo4Grande" src="../assets/Servicios/fondo4Grande.png">
+                <img class="imagenRight" id="AccesibilidadfondoD" src="../assets/Accesibilidad/fondoD.png">
+                <img class="imagenRightGrande" id="AccesibilidadfondoDGrande" src="../assets/Accesibilidad/fondoDGrande.png">
                 <div class="textoIzquierda">
                     <div class="titularServicios">
-                        <h4>Edificios, Medios de transporte, instalaciones, complejos turísticos, equipamientos urbanos</h4>
+                        <h4 id="tittleAccessibilityEdificios">Edificios, Medios de transporte, instalaciones, complejos turísticos, equipamientos urbanos</h4>
                     </div>
                     <div class="textoServicios">
                         <p>Se trabaja sobre soluciones tipo, no sólo de elementos o mobiliario urbanos sino también de zonas de ocio, estaciones de intercambio
                              modal, medios de transporte, instalaciones y equipamientos urbanos, y en definitiva, cualquier edificio que albergue funciones públicas.</p>
                     </div>
                 </div>
-                <img class="imagenLeft" src="../assets/Servicios/fondo5.png">
-                <img class="imagenLeftGrande" src="../assets/Servicios/fondo5Grande.png">
+                <img class="imagenLeft" id="AccesibilidadFondoE" src="../assets/Accesibilidad/fondoE.png">
+                <img class="imagenLeftGrande" id="AccesibilidadFondoEGrande" src="../assets/Accesibilidad/fondoEGrande.png">
                 <div class="textoDerecha">
                     <div class="titularServicios">
-                        <h4>Proyectos de eliminación de barreras arquitectónicas</h4>
+                        <h4 id="tittleAccessibilityProyectos">Proyectos de eliminación de barreras arquitectónicas</h4>
                     </div>
                     <div class="textoServicios">
                         <p>Desarrollo de proyectos arquitectónicos urbanísticos o de edificación: reformas, accesibilización, rehabilitación, obra nueva... <br><br>
@@ -134,11 +137,11 @@
                             El reto en la proyección de nuevos espacios urbanos es conseguir entornos construidos para todos.</p>
                     </div>
                 </div>
-                <img class="imagenRight" src="../assets/Servicios/fondo6.png">
-                <img class="imagenRightGrande" id="ServicioFondo6Grande" src="../assets/Servicios/fondo6Grande.png">
+                <img class="imagenRight" id="AccesibilidadFondoF" src="../assets/Accesibilidad/fondoF.png">
+                <img class="imagenRightGrande" id="AccesibilidadFondoFGrande" src="../assets/Accesibilidad/fondoFGrande.png">
                 <div class="textoIzquierda">
                     <div class="titularServicios">
-                        <h4>Asesoramiento y formación en materia de Accesibilidad</h4>
+                        <h4 id="tittleAccessibilityAsesoramiento">Asesoramiento y formación en materia de Accesibilidad</h4>
                     </div>
                     <div class="textoServicios">
                         <p>Contamos con la experiencia de 20 años y con conocimientos para definir aquellas acciones formativas que darán solución a las necesidades
