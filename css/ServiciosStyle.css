@@ -1,43 +1,10 @@
-/* #fondoServicios{
-    background-image: url(../assets/FondoServicio.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-} */
-
 /* IMAGENES FONDO */
 
-.imagenRight{
-    margin: 0;
-    padding: 0;
-    padding-left: 10px;
-    padding-bottom: 8px;
-    width: 120px;
-    position: relative;
-    right: 0;
-    float: right;
-}
-.imagenLeft{
-    margin: 0;
-    padding: 0;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    width: 120px;
-    position: relative;
-    left: 0;
-    float:left;
-}
-.imagenRightGrande{
-    display: none;
-}
-.imagenLeftGrande{
-    display: none;
-}
 #ServicioFondo2{
     padding-top: 18px;
 }
 #ServicioFondo3{
-    left:  -12px;
+    left:  -60px;
     padding-bottom: 15px;
     width: 170px;
 }
@@ -61,7 +28,6 @@
 
 .titleService{
     margin-top: -7px;
-    font-family: 'Satoshi-Bold';
     margin-left: 41px;
     margin-bottom: 16px;
     text-align: left;
@@ -77,26 +43,35 @@
 
 /* CARDS */
 
-.card-clock{
+.text-box-servicios{
+    background-color: transparent;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 1.2em;
+}
+
+#card-clock{
     background-image: url(../assets/Reloj.png);
     background-repeat: no-repeat;
     background-size: 90px;
 }
 
-.card-ubicacion{
+#card-ubicacion{
     background-image: url(../assets/Ubicacion.png);
     background-repeat: no-repeat;
     background-size: 70px;
     
 }
 
-.card-email{
+#card-email{
     background-image: url(../assets/Correo.png);
     background-repeat: no-repeat;
     background-size: 90px;
 }
 
-.card-phone{
+#card-phone{
     background-image: url(../assets/phone.png);
     background-repeat: no-repeat;
     background-size: 90px;
@@ -140,14 +115,6 @@
 
     /* IMGANES */
 
-    .imagenRight{
-        min-width: 200px;
-        padding-left: 30px;
-    }
-    .imagenLeft{
-        min-width: 200px;
-        padding-right: 30px;
-    }
     #ServicioFondo2{
         padding-top: 18px;
     } 
@@ -181,69 +148,43 @@
         padding-bottom: 0.8em;
         padding-top: 2.1em;
         font-size: 1.5em;
-        font-family: 'Satoshi-Bold';
         
     }
 }
 
 @media (min-width: 1140px){
-    .imagenRight{
-        display: none;
-    }
-    .imagenLeft{
-        display: none;
-    }
-    .imagenRightGrande{
-        display: block;
-        margin: 0;
-        padding: 0;
-        margin-left: 50px;
-        padding-top: 8em;
-        width: 26.25em;
-        position: relative;
-        right: 0;
-        float: right;
-    
-    } 
-    .imagenLeftGrande{
-        display: block;
-        margin: 0;
-        padding: 0;
-        padding-right: 50px;
-        padding-top: 4em;
-        width: 26.25em;
-        position: relative;
-        left: 0;
-        float: left;
-    
-    } 
+
     #ServicioFondo1Grande{
         margin-top: -71px;
         padding-left: 0px;
+        width: 22em;
     }
     #ServicioFondo2Grande{
         margin-left: 0;
         padding-top: 25px;
-        width: 15.25em;
+        width: 14.5em;
     } 
     #ServicioFondo3Grande{
         margin-top: 60px;
-        margin-left: -12px;
+        margin-left: -60px;
         padding-bottom: 4em; 
     }
+    #Serviciofondo4Grande{
+        width: 22em;
+    }
     #ServicioFondo6Grande{
-        width: 21.25em;
-        padding-top: 11em;
+        width: 19.25em;
+        padding-top: 4em;
     }
     #ServicioFondo7Grande{
-        margin-top: 9em;
-        width: 24.125em;
+        margin-top: 2em;
+        width: 21.125em;
         
     }  
 
 
      /* HEADER */
-     #header-servicio{
+    #header-servicio{
         margin-left: 30px;
     }
     h1{
@@ -264,12 +205,12 @@
     /* TEXTOS */
 
     .TextosServiciosContainer{
-        padding-top: 0;
+        margin-top: -14em;
     }
     .titularServicios{
         font-size: 2.3em;
         line-height: 1.3em;
-        margin-top: 4em;
+        margin-top: 0;
         
     }
     .textoServicios{
@@ -297,7 +238,6 @@
     } 
     #ServicioFondo3Grande{
         margin-top: 60px;
-        margin-left: -12px;
         padding-bottom: 4em; 
     }
     #ServicioFondo6Grande{
